@@ -12,13 +12,12 @@
 	* Task List
 	* Timeline
 	* Effort Matrix
-5. ABET Concerns Essay (optional)
-6. PPT Slideshow (includes ABET Concerns)
-7. Self-Assessment Essays
-8. Professional Biographies
-9. Budget
+5. PPT Slideshow (includes ABET Concerns)
+6. Self-Assessment Essays
+7. Professional Biographies
+8. Budget
 	* expenses to date or statement that there have not been any.
 	* show monetary value of donated items and donation sources.
-10. Appendix
+9. Appendix
 include appropriate references, citations, links to code repositories, and meeting notes.
 there should be evidence justifying 45 hours of effort for each team member.
