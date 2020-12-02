@@ -1,9 +1,10 @@
 Team Name: The Thinking Computers
 
 Team Members: Craig Fields (CS), fieldcg@mail.uc.edu
-  Jiale Liu, liu3jl@mail.uc.edu
-  Ben Smith, smith4b9@mail.uc.edu
+              Ben Smith (CS), smith4b9@mail.uc.edu
   
-Faculty Advisor: TBA, possibly John Franko
-
-Project Topic Area: The use of artificial intelligence in computers, where they are used, and integration of it in various software
+Discription: For this project we will develop a pice of hardware that affixes to existing ticket printers (prints orders as they come in) 
+in resurants that will read order tickets as they come in. Using this data and software that uses AI to account for unexpected loss, we seek
+create a product that can easily and automaticly manage a resturant's inventory as well as provide the owner a snapshot of their usages and
+other usefull data for running the business. Our product will be able to run autonamosly and order new product as needed from the resturant's
+suppliers.
