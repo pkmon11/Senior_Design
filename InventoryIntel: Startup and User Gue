@@ -1,0 +1,46 @@
+InventoryIntel: Startup and User Guide
+
+Installation Guide
+  a. Dependencies
+Basic Features
+  a. Main Menu
+  b. Placing New Orders
+  c. Updating Inventory
+
+1. Installation Guide
+  a. Visit our GitHub at https://github.com/pkmon11/Senior_Design to download the entire repository.
+  b. main.cpp can simply be compiled from any IDE or terminal. 
+    i. GUI is just the terminal at the moment but we plan on making a fully fleshed out app in future development cycles.
+1.2. Dependencies
+  a.	PoDoFo
+	  i.	Purpose: Library for handling converting PDF scans of order receipts into .txt files that are then parsed by our program. This adds some useful functions for pulling out just the text of PDF files which is exactly what we need for this project.
+    ii.	Developer’s website: http://podofo.sourceforge.net/about.html
+Basic Features
+  a. Main Menu
+    i. Users are greeted by a main menu with all the current functions listed as follows
+      1. Main Menu
+      2. View Inventory
+      3. View Orders
+      4. View Venders
+      5. Update Inventory
+      6. Place New Order
+      7. Set Restock Threshold 
+      8. Set Inventory Check Clock
+    ii. Each item can be selected by keying in the corresponding number into the terminal
+  b. Placing New Orders
+    i. Restock orders are placed one of two ways…
+      1. Automatic orders
+        a. The program will check inventory numbers on a cycle of a set time (clock is set using item 8 in the main menu)
+        b. Once the inventory reaches a set minimum, a restock order is sent out in the form of an email at a set time or automatically
+      2. Manual orders
+        a. If the user chooses, they can place a restock order at any time using item 6 in the main menu.
+  c. Where to find and update your inventory list
+    i. When you download the InventoryIntel repository you will find a file called inventory.txt under /InventoryIntel/inventory
+      1. This file initially has a few inventory items by default
+      2. User must follow the following format to add new inventory items
+        a. “ Item : Quantity ”
+          i. Item is a string and can contain spaces
+          ii. Quantity is a number with at most 2 decimal places (i.e. 1.23)
+    ii. Inventory.txt can be updated just once upon install and the automatic updates will be handled by the auto update feature. Manual updates can be done at any time as needed.
+
+
